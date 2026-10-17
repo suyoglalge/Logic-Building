@@ -1,0 +1,15 @@
+import java.util.*;    //using star is bad programingp practice
+
+public class Program21 
+{
+    public static void main(String[] args) 
+    {
+
+        Scanner sobj = new Scanner(System.in);
+
+        System.out.println("Enter your name :");
+        String name = sobj.nextLine();
+
+        System.out.println("Welcome ......"+name);     
+    }    
+}

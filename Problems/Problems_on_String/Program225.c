@@ -1,0 +1,15 @@
+//1 nov:Problems on string
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    char Arr[] = {'G','a','n','e','s','h','\0'};
+
+    printf("%s\n",Arr);       //s for string
+    
+    printf("Size of array is:%d\n",sizeof(Arr));
+    
+    return EXIT_SUCCESS;
+}
